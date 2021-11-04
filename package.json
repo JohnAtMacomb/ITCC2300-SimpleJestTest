@@ -1,0 +1,23 @@
+{
+  "name": "itcc2300_simple_jest_test",
+  "version": "0.0.1",
+  "description": "This is a demo",
+  "type": "module",
+  "jest": {
+    "verbose": true
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test_coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "keywords": [
+    "test",
+    "jest",
+    "demo"
+  ],
+  "author": "John Koss",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
